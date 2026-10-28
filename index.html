@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<meta charset="Utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+<style>
+html,
+body {
+    background-color: #efdfd5;
+    margin: 0;
+}
+
+p {
+  font-family: "Lora", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 25px;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-size: 40px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Caveat", cursive;
+  font-size: 90px;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #542c12;
+}
+
+.foreg {
+	background: #542c1230;
+	backdrop-filter: blur(3px);
+	-webkit-backdrop-filter: blur(3px);
+    border-radius: 15px;
+    position: absolute;
+    top: 75px;
+    height: 500px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.left,
+.right {
+  padding: 15px;
+  margin: 15px;
+  width: 50%;
+  height: 100%;
+  border-radius: 15px;
+  background: #542c12;
+  color: #efdfd5;
+}
+
+.normal_div {
+	margin: 15px;
+	padding: 15px;
+  	border-radius: 15px;
+  	background: #d8c0ad;
+	overflow: hidden;
+}
+
+.normal_backg {
+	width: 100%;
+	overflow: hidden;
+}
+
+.normal_foreg {
+	overflow: hidden;
+	width: 100%;
+}
+
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+.map-container iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+    border: 0;
+    border-radius: 15px;
+}
+
+</style>
+
+<html>
+<title>Cafetería Quinta Molienda</title>
+<body>
+
+<div style="
+    overflow: hidden;
+    display: flex;
+    justify-content: center; /* Horizontal */
+    align-items: center;     /* Vertical */
+    height: 650px;
+">
+    <img class="foreg" src="img/logo_light.png" alt="Logo">
+  
+    <img src="img/background.jpg" alt="Background">
+</div>
+
+<br>
+
+<div class="normal_div">
+	<h2 align="center">Sobre nosotros</h2> 
+	<p align="center" style="color: #542c12; padding-right: 15px;">
+		Somos una cafetería cercana, donde buscamos <br> que te sientas cómodo haciendo home office con <br> productos de calidad y de Jalisco.
+		Ofrecemos café y alimentos de calidad <br> en un espacio acogedor y agradable.
+	</p>
+	<div>
+		<img src="img/body_background.png" class="normal_backg">
+	</div>
+</div>
+
+<div style="padding: 15px;">
+	<img src="img/menu.jpg" style="width: 100%; border-radius: 15px;">
+</div>
+
+<div class="container">
+	<div class="left">
+		<h1>Café molido o en grano</h1>
+        <img src="img/coffee.jpg" style="width: 100%; border-radius: 15px;">
+	</div>
+
+
+	<div class="right">
+		<h1>Comida</h1>
+        <img src="img/food.jpg" style="width: 100%; border-radius: 15px;">
+	</div>
+</div>
+
+<div class="container">
+	<div class="left">
+		<h1>Panes</h1>
+        <img src="img/bread.png" style="width: 100%; border-radius: 15px;">
+	</div>
+	<div class="right">
+		<h1>Fachada</h1>
+        <img src="img/place.jpg" style="width: 100%; border-radius: 15px;">
+	</div>
+</div>
+
+<div class="normal_div">
+	<p align="center" style="color: #542c12;">Nos ubicamos en: Av. Camino a Bosque de San Isidro 530-2, San José del Bajío, 45140 Zapopan, Jal.</p>
+</div>
+
+<div class="map-container">
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d293.1710518992226!2d-103.38601042210311!3d20.744148284512672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428af0c808e95b9%3A0x8152d38f748297f0!2sCaf%C3%A9%20Quinta%20Molienda!5e0!3m2!1ses!2smx!4v1793079567213!5m2!1ses!2smx"
+        width="600"
+        height="450"
+        style="border-radius:15px;"
+        allowfullscreen=""
+        loading="lazy">
+    </iframe>
+</div>
+
+<div class="normal_div">
+    <h2 align="center" style="color: #542c12;">
+        Contactanos por: 
+    </h2>
+
+    <p align="center" style="color: #542c12;"> 
+        Instagram y Facebook: @Cafequintamolienda_gdl<br>
+        Tiktok: @cafequintamolienda
+    </p>
+
+    <div style="text-align: center;">
+        <img src="img/body_background.png" style="width: 100%;">
+    </div>
+</div>
+
+</body>
+</html>
